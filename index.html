@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Sustentabilidade e TI-Verde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz: Sustentabilidade e TI-Verde</h1>
+        <p>Responda às perguntas abaixo para testar seu conhecimento sobre os 5 R's da sustentabilidade e práticas de TI-Verde.</p>
+
+        <form id="quiz-form">
+            <div id="quiz"></div>
+            <button type="submit" class="btn">Enviar Respostas</button>
+        </form>
+
+        <div id="result" class="result"></div>
+
+        <!-- Botão para refazer o quiz -->
+        <button id="retry-btn" class="btn hidden">Refazer Quiz</button>
+    
+<!-- QR Code Section -->
+<h2>Compartilhe este Quiz:</h2>
+<div id="qrcode"></div>
+<button class="btn" id="generate-qrcode">Gerar QR Code</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
